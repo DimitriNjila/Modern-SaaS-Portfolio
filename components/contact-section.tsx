@@ -107,9 +107,10 @@ export function ContactSection() {
 
       case "skills":
         addLine("Tech Stack:", "info")
-        addLine("  Frontend: React, Next.js, TypeScript, Tailwind CSS", "info")
-        addLine("  Backend: Node.js, PostgreSQL, Redis", "info")
-        addLine("  Tools: Git, Docker, AWS", "info")
+        addLine("  Languages: Python, SQL, R, Scala, Bash", "info")
+        addLine("  Data Engine: Spark, ETL Pipelines, Hadoop, Kafka", "info")
+        addLine("  Infrastructure: Azure AD, AWS, PowerShell, Docker", "info")
+        addLine("  Visualization: Power BI, Tableau", "info")
         break
 
       case "clear":
@@ -157,7 +158,7 @@ export function ContactSection() {
               <div className="w-3 h-3 rounded-full bg-accent" />
               <div className="w-3 h-3 rounded-full bg-primary" />
             </div>
-            <span className="text-sm text-muted-foreground font-mono ml-4">terminal@portfolio</span>
+            <span className="text-sm text-muted-foreground font-mono ml-4">hertz@data-engineer</span>
           </div>
 
           {/* Terminal Body */}
@@ -204,15 +205,15 @@ export function ContactSection() {
           <p className="text-muted-foreground">Or reach out directly:</p>
           <div className="flex flex-wrap items-center justify-center gap-4">
             <Button variant="outline" asChild>
-              <a href="mailto:hello@example.com">hello@example.com</a>
+              <a href="mailto:djihouah@gmail.com">djihouah@gmail.com</a>
             </Button>
             <Button variant="outline" asChild>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/HertzSully" target="_blank" rel="noopener noreferrer">
                 GitHub
               </a>
             </Button>
             <Button variant="outline" asChild>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/hertz-sully-djihoua" target="_blank" rel="noopener noreferrer">
                 LinkedIn
               </a>
             </Button>

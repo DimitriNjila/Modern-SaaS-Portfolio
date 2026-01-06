@@ -29,14 +29,13 @@ export function HeroSection() {
           {/* Main Heading */}
           <div className="space-y-4">
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-balance">
-              Building Digital
+              Architecting Scalable
               <br />
-              <span className="text-gradient">Experiences</span>
+              <span className="text-gradient">Data Systems</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto text-pretty leading-relaxed">
-              Full-stack developer passionate about creating elegant solutions
-              to complex problems. Specialized in modern web technologies and
-              user-centric design.
+              Data Engineer expert in building scalable ETL pipelines and automating
+              complex systems using Python, SQL, and PowerShell.
             </p>
           </div>
 
@@ -64,7 +63,7 @@ export function HeroSection() {
           {/* Social Links */}
           <div className="flex items-center gap-4 mt-8">
             <a
-              href="https://github.com"
+              href="https://github.com/HertzSully"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full bg-secondary hover:bg-secondary/80 flex items-center justify-center transition-colors"
@@ -72,7 +71,7 @@ export function HeroSection() {
               <Github size={20} />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/hertz-sully-djihoua"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full bg-secondary hover:bg-secondary/80 flex items-center justify-center transition-colors"
@@ -80,7 +79,7 @@ export function HeroSection() {
               <Linkedin size={20} />
             </a>
             <a
-              href="mailto:hello@example.com"
+              href="mailto:djihouah@gmail.com"
               className="w-10 h-10 rounded-full bg-secondary hover:bg-secondary/80 flex items-center justify-center transition-colors"
             >
               <Mail size={20} />
@@ -91,7 +90,7 @@ export function HeroSection() {
           <div className="grid grid-cols-3 gap-8 md:gap-16 mt-16 pt-16 border-t border-border w-full max-w-3xl">
             <div className="space-y-2">
               <div className="text-3xl md:text-4xl font-bold text-gradient">
-                5+
+                2+
               </div>
               <div className="text-sm text-muted-foreground">
                 Years Experience
@@ -109,7 +108,7 @@ export function HeroSection() {
               <div className="text-3xl md:text-4xl font-bold text-gradient">
                 30+
               </div>
-              <div className="text-sm text-muted-foreground">Happy Clients</div>
+              <div className="text-sm text-muted-foreground">Automation Efficiency</div>
             </div>
           </div>
         </div>

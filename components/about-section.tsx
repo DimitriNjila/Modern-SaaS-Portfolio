@@ -1,43 +1,49 @@
 import { Card } from "@/components/ui/card";
-import { Code2, Palette, Zap, Users } from "lucide-react";
+import { Database, BarChart3, Zap, Cloud } from "lucide-react";
 
 export function AboutSection() {
   const skills = [
     {
-      icon: Code2,
-      title: "Full-Stack Development",
+      icon: Database,
+      title: "Data Pipeline Engineering",
       description:
-        "Building robust applications with React, Next.js, Node.js, and modern frameworks.",
+        "Designing and optimizing scalable ETL processes to ensure 100% data accuracy and seamless integration.",
     },
     {
-      icon: Palette,
-      title: "UI/UX Design",
+      icon: BarChart3,
+      title: "Statistical Analysis",
       description:
-        "Creating intuitive and visually appealing interfaces with attention to detail.",
+        "Leveraging a Master's background in Mathematics to build robust predictive models and extract strategic insights.",
     },
     {
       icon: Zap,
-      title: "Performance",
+      title: "Systems Automation",
       description:
-        "Optimizing applications for speed, accessibility, and seamless user experience.",
+        "Reducing operational manual effort by up to 35% through advanced scripting with PowerShell and Python.",
     },
     {
-      icon: Users,
-      title: "Collaboration",
+      icon: Cloud,
+      title: "Scalable Architectures",
       description:
-        "Working effectively with cross-functional teams to deliver exceptional results.",
+        "Architecting cloud-native data systems (AWS/Azure) capable of handling large-scale data flows in production.",
     },
   ];
 
   const technologies = [
-    "React",
-    "Next.js",
-    "TypeScript",
-    "Node.js",
-    "Tailwind CSS",
-    "PostgreSQL",
-    "AWS",
+    "Python",
+    "SQL (T-SQL, PostgreSQL)",
+    "Spark (PySpark)",
+    "ETL Pipelines",
+    "Kafka",
+    "Hadoop",
+    "PowerShell",
+    "AWS (S3, EC2)",
+    "Azure AD",
+    "Power BI",
+    "Tableau",
     "Docker",
+    "R / Scala",
+    "Git/GitHub"
   ];
 
   return (
@@ -48,11 +54,10 @@ export function AboutSection() {
             About Me
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl text-pretty leading-relaxed">
-            I'm a passionate full-stack developer with a love for creating
-            beautiful, functional web experiences. With years of experience in
-            the industry, I've worked on projects ranging from startups to
-            enterprise applications, always focusing on delivering quality and
-            innovation.
+            With a Bachelor's in Mathematics from France and a Master's in Statistics & Big Data, I bring a rigorous analytical approach to Data Engineering. My background allows me not only to build data pipelines but to understand the underlying statistical models that drive predictive insights.
+          </p>
+          <p className="text-lg text-muted-foreground max-w-3xl text-pretty leading-relaxed">
+            Currently based in Toronto, I leverage my technical expertise in Python, SQL, and Cloud infrastructure to automate complex systems and ensure data integrity at scale. Whether it's optimizing ETL flows or architecting cloud-native solutions, I focus on transforming raw data into strategic business assets.
           </p>
         </div>
 
