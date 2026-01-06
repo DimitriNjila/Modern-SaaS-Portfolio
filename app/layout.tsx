@@ -8,8 +8,9 @@ const inter = Inter({ subsets: ["latin"] });
 const firaCode = Fira_Code({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Portfolio - Full Stack Developer",
-  description: "Modern portfolio showcasing my work as a full-stack developer",
+  title: "Sully - Portfolio",
+  description:
+    "Personal portfolio showcasing my work as a junior data engineer.",
   icons: {
     icon: [
       {
